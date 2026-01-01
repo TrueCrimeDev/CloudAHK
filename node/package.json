@@ -1,0 +1,29 @@
+{
+  "name": "cloudahk",
+  "version": "1.0.0",
+  "description": "Node.js client and MCP server for CloudAHK - Run AutoHotkey scripts with error detection",
+  "main": "src/client.js",
+  "bin": {
+    "cloudahk-mcp": "./src/mcp-server.js"
+  },
+  "scripts": {
+    "start": "node src/mcp-server.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "autohotkey",
+    "ahk",
+    "cloudahk",
+    "mcp",
+    "claude-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
